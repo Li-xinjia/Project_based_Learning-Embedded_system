@@ -1,3 +1,6 @@
 [submodule "blinky"]
 	path = blinky
 	url = https://github.com/Li-xinjia/Project_based_Learning-Embedded_system-blinky.git
+[submodule "buzzer"]
+	path = buzzer
+	url = https://github.com/Li-xinjia/Project_based_Learning-Embedded_system-buzzer.git
