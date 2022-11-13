@@ -1,0 +1,39 @@
+{
+  "build": {
+    "core": "tivac",
+    "cpu": "cortex-m4",
+    "f_cpu": "80000000L",
+    "mcu": "lptm4c1230c3pm",
+    "variant": "EK-TM4C123GXL"
+  },
+  "debug": {
+    "svd_path": "TM4C1230C3PM.svd",
+    "tools": {
+      "ti-icdi": {
+        "onboard": true,
+        "server": {
+          "arguments": [
+            "-s",
+            "$PACKAGE_DIR/scripts",
+            "-f",
+            "board/ek-tm4c123gxl.cfg"
+          ],
+          "executable": "bin/openocd",
+          "package": "tool-openocd"
+        }
+      }
+    }
+  },
+  "frameworks": [],
+  "name": "EK-TM4C123GXL",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "protocol": "ti-icdi",
+    "protocols": [
+      "ti-icdi"
+    ]
+  },
+  "url": "http://www.ti.com/ww/en/launchpad/launchpads-connected-ek-tm4c123gxl.html",
+  "vendor": "TI"
+}

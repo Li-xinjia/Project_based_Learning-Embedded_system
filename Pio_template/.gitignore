@@ -1,0 +1,9 @@
+.pio
+CMakeListsPrivate.txt
+cmake-build-*/
+
+#For Clion
+.idea
+
+#For Vscode
+.vscode
