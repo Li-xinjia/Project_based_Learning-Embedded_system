@@ -7,3 +7,6 @@
 [submodule "lcd"]
 	path = lcd
 	url = https://github.com/Li-xinjia/Project_based_Learning-Embedded_system-lcd.git
+[submodule "rotary"]
+	path = rotary
+	url = https://github.com/Li-xinjia/Project_based_Learning-Embedded_system-rotary.git
