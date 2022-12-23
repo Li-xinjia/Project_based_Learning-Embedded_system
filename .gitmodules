@@ -10,3 +10,6 @@
 [submodule "rotary"]
 	path = rotary
 	url = https://github.com/Li-xinjia/Project_based_Learning-Embedded_system-rotary.git
+[submodule "colorsensor"]
+	path = colorsensor
+	url = https://github.com/Li-xinjia/Project_based_Learning-Embedded_system-colorsensor.git
